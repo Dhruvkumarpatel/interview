@@ -13,8 +13,8 @@ import java.util.Scanner;
  */
 public class BinarySearch {
 
-	public static int binarySearch(ArrayList<Integer> list, int element, int low, int high) {
-
+	public static int binarySearch(ArrayList<Integer> list, int element, int low, int high) {		
+		
 		int mid = low + (high - low) / 2;
 
 		if (list.get(mid) == element) {
