@@ -2,6 +2,11 @@ package sorting;
 
 import java.util.Date;
 
+/*
+ * @class person
+ * 
+ */
+
 public class Person {
 	
 	private int person_id;
